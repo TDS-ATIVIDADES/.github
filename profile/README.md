@@ -1,7 +1,5 @@
 # Trajetória do curso
 
-Você está no módulo 3, uc: "Programar aplicativos computacionais com integração de banco de dados para web. (back-end)".
-
 A linha do tempo a seguir representa a sua trajetória no curso.
 
 Durante o seu curso Técnico em Desenvolvimento de Sistemas, você poderá verificar, a qualquer momento, as UCs (unidades curriculares) que já concluiu e as que ainda tem pela frente.
