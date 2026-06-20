@@ -23,46 +23,27 @@ Quanto às marcas profissionais, você pode obter mais informações sobre elas 
 </details>
 
 ```mermaid
-flowchart TD
-    Modulo1["Módulo I"]
-    Subject1["Planejar o desenvolvimento de software"]
-    Subject2["Desenvolver algoritmos"]
-    Subject3["Auxiliar na modelagem e manipulação de banco de dados"]
-    Subject4["Auxiliar na administração de banco de dados"]
-    PI["Projeto integrador [PI]<br/>Assistente de Administração de Banco de Dados"]
-    
-    Modulo1 --> Subject1 --> PI
-    Modulo1 --> Subject2 --> PI
-    Modulo1 --> Subject3 --> PI
-    Modulo1 --> Subject4 --> PI
-```
-```mermaid
-flowchart TD
-    Modulo1["Módulo II"]
-    Subject1["Planejar o desenvolvimento de software"]
-    Subject2["Auxiliar na elaboração de projeto de sistema orientado a objeto"]
-    Subject3["Desenvolver projeto de interface para melhor experiência do usuário"]
-    Subject4["Desenvolver e organizar interface gráfica para aplicações desktop"]
-    PI["Projeto integrador [PI]<br/>Assistente de desenvolvimento de sistemas I"]
-    
-    Modulo1 --> Subject1 --> PI
-    Modulo1 --> Subject2 --> PI
-    Modulo1 --> Subject3 --> PI
-    Modulo1 --> Subject4 --> PI
-```
-```mermaid
-flowchart TD
-    Modulo1["Módulo III"]
-    Subject1["Gerenciar a configuração e versionamento de Software"]
-    Subject2["Executar testes e realizar melhorias em aplicativos computacionais"]
-    Subject3["Desenvolver e organizar interface de usuário e elementos visuais para aplicações web. (front-end)"]
-    Subject4["Programar aplicativos computacionais com integração de banco de dados para web. (back-end)"]
-    PI["Projeto integrador [PI]<br/>Assistente de desenvolvimento de sistemas II"]
-    
-    Modulo1 --> Subject1 --> PI
-    Modulo1 --> Subject2 --> PI
-    Modulo1 --> Subject3 --> PI
-    Modulo1 --> Subject4 --> PI
+flowchart LR
+  subgraph ModuloI["Módulo I"]
+    A1["Planejar o desenvolvimento de software"]
+    A2["Desenvolver algoritmos"]
+    A3["Auxiliar na modelagem e manipulação de banco de dados"]
+    A4["Auxiliar na administração de banco de dados"]
+  end
+
+  subgraph ModuloII["Módulo II"]
+    B1["Planejar o desenvolvimento de software"]
+    B2["Auxiliar na elaboração de projeto de sistema orientado a objeto"]
+    B3["Desenvolver projeto de interface para melhor experiência do usuário"]
+    B4["Desenvolver e organizar interface gráfica para aplicações desktop"]
+  end
+
+  subgraph ModuloIII["Módulo III"]
+    C1["Gerenciar a configuração e versionamento de Software"]
+    C2["Executar testes e realizar melhorias em aplicativos computacionais"]
+    C3["Desenvolver e organizar interface de usuário e elementos visuais para aplicações web (front-end)"]
+    C4["Programar aplicativos computacionais com integração de banco de dados para web (back-end)"]
+  end
 ```
 
 ## Marcas profissionais
